@@ -1,0 +1,40 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+} */
+
+.page-container {
+  @apply bg-gray-100 min-h-screen;
+}
+
+.main-title {
+  @apply text-5xl font-bold text-center text-gray-800;
+}
+
+/* Classe genérica para seções com espaçamento vertical */
+.section {
+  @apply py-16;
+}
+
+/* Classe para o contêiner que centraliza o conteúdo */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-4xl font-semibold text-center mb-8; /* Adicionei margin-bottom para reutilização */
+}
+
+.speakers-grid {
+  @apply flex flex-wrap items-stretch justify-center gap-4 mt-4;
+}
+
+.about-text {
+  @apply mt-4 text-lg text-gray-700 max-w-5xl mx-auto text-center;
+}
+
+.footer {
+  @apply bg-gray-800 text-white text-center p-4 mt-auto; /* mt-auto para grudar no fim se o conteúdo for pouco */
+}

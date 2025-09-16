@@ -1,0 +1,27 @@
+.speaker-card {
+  @apply flex flex-col items-center bg-white p-4 m-4 rounded-xl shadow-lg w-80 h-auto gap-3 transition-transform duration-300 ease-in-out hover:scale-105 hover:z-10;
+}
+
+.speaker-card__image {
+  @apply w-full h-72 object-cover rounded-lg;
+}
+
+.speaker-card__name {
+  @apply text-2xl font-bold text-center;
+}
+
+.speaker-card__title {
+  @apply text-gray-600 text-lg text-center;
+}
+
+.speaker-card__spacer {
+  @apply flex-grow; /* Para manter o botão alinhado na base */
+}
+
+.speaker-card__button {
+  @apply bg-gray-100 py-2 px-4 rounded hover:bg-gray-200 w-full; /* Adicionei w-full para consistência */
+}
+
+.speaker-card__bio {
+  @apply mt-2 text-base text-gray-600 text-left w-full;
+}
