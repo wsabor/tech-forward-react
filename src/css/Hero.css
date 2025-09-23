@@ -1,24 +1,15 @@
 .hero {
-  background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1350&q=80");
-  background-size: cover;
-  background-position: center;
-  height: 80dvh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 20px;
-  text-align: center;
+  @apply relative w-full h-[80dvh] overflow-hidden bg-cover bg-center flex flex-col justify-center items-center py-8 px-5 text-center bg-[url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1350&q=80')];
 }
 
 .hero-title {
-  @apply text-6xl font-bold text-white mb-4;
+  @apply text-6xl font-bold text-white mb-8 drop-shadow-lg;
 }
 
 .hero-subtitle {
-  @apply text-2xl text-gray-200 mb-6;
+  @apply text-2xl text-gray-200 max-w-lg mb-8 drop-shadow-md;
 }
 
 .hero-button {
-  @apply mt-6 px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition;
+  @apply px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition;
 }

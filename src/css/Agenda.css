@@ -1,0 +1,20 @@
+table {
+  @apply w-full border-collapse rounded-lg overflow-hidden shadow-md;
+}
+
+th,
+td {
+  @apply border border-gray-300 p-4 text-left;
+}
+
+th {
+  @apply bg-blue-800 text-white font-semibold;
+}
+
+tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+tr:hover {
+  @apply bg-blue-100;
+}

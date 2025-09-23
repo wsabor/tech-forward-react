@@ -1,4 +1,3 @@
-import "../css/About.css";
 import "../App.css";
 
 export default function About() {
