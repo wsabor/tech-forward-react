@@ -25,3 +25,11 @@
 .speaker-card__bio {
   @apply mt-2 text-base text-gray-600 text-left w-full;
 }
+
+.speakers-grid {
+  @apply flex flex-wrap items-stretch justify-center gap-4 mt-4;
+}
+
+.about-text {
+  @apply mt-4 text-lg text-gray-700 max-w-5xl mx-auto text-center;
+}

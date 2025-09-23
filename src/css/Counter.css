@@ -1,0 +1,15 @@
+.countdown-container {
+  @apply mt-8 flex flex-row justify-center gap-8 mb-16;
+}
+
+.countdown-item {
+  @apply flex flex-col items-center bg-white p-6 rounded-lg shadow-md;
+}
+
+.countdown-item span {
+  @apply text-5xl font-bold text-blue-800;
+}
+
+.countdown-item p {
+  @apply text-sm text-gray-500;
+}
