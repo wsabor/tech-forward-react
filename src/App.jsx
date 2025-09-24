@@ -9,13 +9,9 @@ export default function App() {
   return (
     <div className="page-container">
       <Hero />
-
       <Counter />
-
       <Speakers />
-
       <About />
-
       <Footer />
     </div>
   );
