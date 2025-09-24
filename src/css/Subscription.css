@@ -1,0 +1,29 @@
+#inscricao form {
+  @apply max-w-xl mx-auto flex flex-col gap-8;
+}
+
+.form-control {
+  @apply flex flex-col;
+}
+.form-control.checkbox-control {
+  @apply flex flex-row items-center gap-4;
+}
+#inscricao label {
+  @apply text-base font-bold mb-2;
+}
+#inscricao input {
+  @apply w-full p-4 rounded-md border border-gray-300;
+}
+#inscricao input[type="checkbox"] {
+  @apply w-auto;
+}
+.error-message {
+  @apply text-red-500 text-sm mt-2 min-h-[1.5rem];
+}
+
+#inscricao button {
+  @apply py-4 px-6 border-none bg-blue-800 text-lg text-white font-bold rounded-lg hover:opacity-90;
+}
+#inscricao button:disabled {
+  @apply bg-blue-400 cursor-not-allowed;
+}

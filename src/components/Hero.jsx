@@ -6,7 +6,8 @@ export default function Hero() {
       <div className="hero-content">
         <h1 className="hero-title">Tech Forward 2025</h1>
         <p className="hero-subtitle">
-          Explorando o Futuro da Tecnologia e Inovação
+          Conecte-se com os maiores inovadores da tecnologia e transforme o
+          futuro
         </p>
         <button className="hero-button">Garanta Sua Vaga Agora!</button>
       </div>

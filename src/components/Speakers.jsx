@@ -30,7 +30,7 @@ export default function Speakers() {
   ];
 
   return (
-    <section className="section">
+    <section className="section bg-gray-200">
       <div className="container">
         <h3 className="section-title text-gray-700">Palestrantes</h3>
         <div className="speakers-grid">
