@@ -1,12 +1,13 @@
-#inscricao {
-  @apply mx-4;
-}
 #form-container {
   @apply bg-blue-100 max-w-2xl mx-auto p-8 rounded-xl shadow-xl;
 }
 
-#inscricao form {
-  @apply max-w-xl mx-auto flex flex-col gap-8;
+#subscribe form {
+  @apply max-w-xl mx-auto flex flex-col gap-2;
+}
+
+#subscribe h2 {
+  @apply text-3xl font-semibold text-center mb-4;
 }
 
 .form-control {
@@ -15,22 +16,22 @@
 .form-control.checkbox-control {
   @apply flex flex-row items-center gap-4;
 }
-#inscricao label {
+#subscribe label {
   @apply text-base font-bold mb-2;
 }
-#inscricao input {
+#subscribe input {
   @apply w-full p-4 rounded-lg border border-gray-300;
 }
-#inscricao input[type="checkbox"] {
+#subscribe input[type="checkbox"] {
   @apply w-auto;
 }
 .error-message {
   @apply text-red-500 text-sm mt-2 min-h-[1.5rem];
 }
 
-#inscricao button {
+#subscribe button {
   @apply py-4 px-6 border-none bg-blue-800 text-lg text-white font-bold rounded-lg hover:opacity-90;
 }
-#inscricao button:disabled {
+#subscribe button:disabled {
   @apply bg-blue-400 cursor-not-allowed;
 }

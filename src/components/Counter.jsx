@@ -43,11 +43,9 @@ export default function Counter() {
     <section id="countdown" className="section bg-gray-200">
       <div className="container">
         {eventStarted ? (
-          <h2 className="section-title mt-16">O evento começou!</h2>
+          <h2 className="section-title">O evento começou!</h2>
         ) : (
-          <h2 className="section-title mt-16">
-            Contagem Regressiva para o Evento
-          </h2>
+          <h2 className="section-title">Contagem Regressiva para o Evento</h2>
         )}
         <div className="countdown-container">
           <div className="countdown-item">

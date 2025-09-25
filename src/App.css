@@ -8,16 +8,16 @@
 
 /* Classe genérica para seções com espaçamento vertical */
 .section {
-  @apply py-24 px-8;
+  @apply py-16 lg:py-20 px-8 sm:px-4 lg:px-8;
 }
 
 /* Classe para o contêiner que centraliza o conteúdo */
 .container {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  @apply max-w-7xl mx-auto;
 }
 
 .section-title {
-  @apply text-4xl font-semibold text-center text-gray-700 mb-8; /* Adicionei margin-bottom para reutilização */
+  @apply text-3xl lg:text-4xl font-semibold text-center text-gray-700 mb-4 lg:mb-8; /* Adicionei margin-bottom para reutilização */
 }
 
 .section-text {

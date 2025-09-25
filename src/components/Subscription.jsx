@@ -69,7 +69,7 @@ export default function Subscription() {
   };
 
   return (
-    <section id="inscricao" className="section">
+    <section id="subscribe" className="section">
       <div className="container" id="form-container">
         {/* Usamos o evento onSubmit do formulário */}
         <form id="form-inscricao" className="form" onSubmit={handleSubmit}>

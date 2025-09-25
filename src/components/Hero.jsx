@@ -1,6 +1,13 @@
 import "../css/Hero.css";
 
 export default function Hero() {
+  const handleScrollToSubscription = () => {
+    const subscriptionSection = document.getElementById("subscribe");
+    if (subscriptionSection) {
+      subscriptionSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -9,7 +16,9 @@ export default function Hero() {
           Conecte-se com os maiores inovadores da tecnologia e transforme o
           futuro
         </p>
-        <button className="hero-button">Garanta Sua Vaga Agora!</button>
+        <button className="hero-button" onClick={handleScrollToSubscription}>
+          Garanta Sua Vaga Agora!
+        </button>
       </div>
     </section>
   );

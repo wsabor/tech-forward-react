@@ -1,5 +1,5 @@
 .speaker-card {
-  @apply flex flex-col items-center bg-white p-4 m-4 rounded-xl shadow-lg w-80 h-auto gap-3 transition-transform duration-300 ease-in-out hover:scale-105 hover:z-10;
+  @apply flex flex-col items-center bg-white p-4 rounded-xl shadow-lg w-96 h-auto gap-3 transition-transform duration-300 ease-in-out hover:scale-105 hover:z-10;
 }
 
 .speaker-card__image {
@@ -27,7 +27,7 @@
 }
 
 .speakers-grid {
-  @apply flex flex-wrap items-stretch justify-center gap-4 mt-4;
+  @apply flex flex-wrap items-stretch justify-center gap-4 lg:gap-6;
 }
 
 .about-text {
