@@ -8,7 +8,7 @@
 
 /* Classe genérica para seções com espaçamento vertical */
 .section {
-  @apply py-24;
+  @apply py-24 px-8;
 }
 
 /* Classe para o contêiner que centraliza o conteúdo */

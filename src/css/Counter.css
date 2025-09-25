@@ -1,5 +1,5 @@
 .countdown-container {
-  @apply grid grid-cols-2 md:flex lg:flex lg:flex-row justify-center gap-8 mt-8 mb-16;
+  @apply grid grid-cols-[repeat(2,auto)] justify-center md:flex gap-8 mt-8 mb-16;
 }
 
 .countdown-item {
