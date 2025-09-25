@@ -70,10 +70,10 @@ export default function Subscription() {
 
   return (
     <section id="inscricao" className="section">
-      <h2 className="section-title">Faça sua Inscrição</h2>
-      <div className="container">
+      <div className="container" id="form-container">
         {/* Usamos o evento onSubmit do formulário */}
         <form id="form-inscricao" className="form" onSubmit={handleSubmit}>
+          <h2 className="section-title">Faça sua Inscrição</h2>
           <div className="form-control">
             <label htmlFor="nome">Nome Completo:</label>
             <input

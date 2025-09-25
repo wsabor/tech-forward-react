@@ -1,3 +1,10 @@
+#inscricao {
+  @apply mx-4;
+}
+#form-container {
+  @apply bg-blue-100 max-w-2xl mx-auto p-8 rounded-xl shadow-xl;
+}
+
 #inscricao form {
   @apply max-w-xl mx-auto flex flex-col gap-8;
 }
@@ -12,7 +19,7 @@
   @apply text-base font-bold mb-2;
 }
 #inscricao input {
-  @apply w-full p-4 rounded-md border border-gray-300;
+  @apply w-full p-4 rounded-lg border border-gray-300;
 }
 #inscricao input[type="checkbox"] {
   @apply w-auto;
